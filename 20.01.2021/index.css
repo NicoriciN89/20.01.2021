@@ -1,0 +1,59 @@
+body {
+    background-color: #444;
+    margin: 0;
+}
+
+.origin {
+
+
+    position: absolute;
+    top: 50%;
+    left: 33%;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.origin .film {
+    background: radial-gradient(transparent 49%, black 50%);
+    background-size: 20px 30px;
+    width: 3000px;
+    font-size: 0;
+    position: relative;
+    left: -33vw;
+    top: -320px;
+
+}
+
+.origin .film li {
+    display: inline-block;
+    padding: 3vh 1vw;
+}
+
+.origin .film li img {
+    visibility: visible;
+    /* visible,hidden,collapse*/
+}
+
+.w-index {
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    width: 1px;
+    top: -50vh;
+    background-color: #555;
+
+}
+
+.h-index {
+    position: absolute;
+    width: 100vw;
+    left: -33vw;
+    top: 0;
+    height: 1px;
+    background-color: #555;
+}
